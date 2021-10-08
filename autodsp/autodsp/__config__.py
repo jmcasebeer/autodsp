@@ -1,0 +1,1 @@
+MSFT_AEC_DIR='/mnt/data/AEC/AEC-Challenge/datasets/synthetic'

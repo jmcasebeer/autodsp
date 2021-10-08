@@ -1,0 +1,42 @@
+name: autodsp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - absl-py=0.14.1=pyhd8ed1ab_0
+  - ca-certificates=2021.5.30=ha878542_0
+  - certifi=2021.5.30=py37h89c1867_0
+  - jax=0.2.21=pyhd8ed1ab_0
+  - jaxlib=0.1.71=py37he8f5f7f_0
+  - ld_impl_linux-64=2.35.1=h7274673_9
+  - libblas=3.9.0=11_linux64_openblas
+  - libcblas=3.9.0=11_linux64_openblas
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=11.2.0=h1d223b6_9
+  - libgfortran-ng=11.2.0=h69a702a_9
+  - libgfortran5=11.2.0=h5c6108e_9
+  - libgomp=11.2.0=h1d223b6_9
+  - liblapack=3.9.0=11_linux64_openblas
+  - libopenblas=0.3.17=pthreads_h8fe5266_1
+  - libstdcxx-ng=11.2.0=he4da1e4_9
+  - ncurses=6.2=he6710b0_1
+  - numpy=1.21.2=py37h31617e3_0
+  - openssl=1.1.1l=h7f98852_0
+  - opt_einsum=3.3.0=pyhd8ed1ab_1
+  - pip=21.0.1=py37h06a4308_0
+  - python=3.7.11=h12debd9_0
+  - python-flatbuffers=2.0=pyhd8ed1ab_0
+  - python_abi=3.7=2_cp37m
+  - readline=8.1=h27cfd23_0
+  - scipy=1.7.1=py37hf2a6cf1_0
+  - setuptools=58.0.4=py37h06a4308_0
+  - six=1.16.0=pyh6c4a22f_0
+  - sqlite=3.36.0=hc218d9a_0
+  - tk=8.6.11=h1ccaba5_0
+  - wheel=0.37.0=pyhd3eb1b0_1
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3
+prefix: /home/jonahmc2/.conda/envs/autodsp
+
