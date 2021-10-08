@@ -95,7 +95,7 @@ The entry point to train and test models is `jax_run.py`. `jax_run.py` pulls con
 python jax_run.py --cfg <config_name> --GPUS <GPUS to use> 
 ```
 
-where `<config_name>` is a config specified in `jax_train_config.py`, `<GPUS to use>` is something like `0 1`. You can automatically send logs to `Weights and Biases` by appending `--wandb`. This run will automatically generate a `/ckpts/<config_name>` directory and log checkpoints to it. You can grab a checkpoint and run it on the test set via
+where `<config_name>` is a config specified in `jax_train_config.py`, `<GPUS to use>` is something like `0 1`. You can automatically send logs to Weights and Biases by appending `--wandb`. This run will automatically generate a `/ckpts/<config_name>` directory and log checkpoints to it. You can grab a checkpoint and run it on the test set via
 
 ``` 
 python jax_run.py --cfg <config_name> --GPUS <GPUS to use> --epochs <epoch checkpoints to evaluate> --eval 
