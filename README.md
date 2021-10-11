@@ -29,7 +29,7 @@ Full video: https://www.youtube.com/watch?v=oe0owGeCsqI
 
 #### Clone repo
 ```
-git clone <INSERT GIT URL HERE JONAH>
+git clone https://github.com/jmcasebeer/autodsp.git
 cd autodsp
 ```
 
