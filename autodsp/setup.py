@@ -6,7 +6,7 @@ setup(
    description='Code to reproduce the 2021 WASPAA paper titled AUTO-DSP: LEARNING TO OPTIMIZE ACOUSTIC ECHO CANCELLERS.',
    author='Jonah Casebeer, Nicholas J. Bryan, Paris Smaragdis',
    author_email='jonahmc2@illinois.edu',
-   url='<git url>',
+   url='https://github.com/jmcasebeer/autodsp',
    packages=['autodsp'],
    license='University of Illinois Open Source License',
    install_requires=[
